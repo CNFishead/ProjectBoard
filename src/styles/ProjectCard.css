@@ -1,0 +1,49 @@
+
+.cardSize {
+    margin: 2.5% 10%;
+    width: 15%;
+    height: 15%;
+    text-align: center;
+    background-color: #F8F8FF;
+    border: 3px solid #004488;
+    font-weight: normal !important;
+    box-shadow: 5px 1.5px 5px #979797;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: #010203 !important;
+    flex-direction: row;
+}
+
+
+hr.hr {
+    margin: 2.5% 0;
+    border-top: 1px solid #000000;
+}
+
+.title {
+    font-size: 14px;
+}
+
+.description {
+    font-size: 14px;
+    margin: 2.5% 0;
+}
+
+.descriptionText {
+    text-align: left;
+    font-size: 14px;
+    margin: 2.5% 0;
+    text-overflow: clip;
+}
+
+.descriptionText p{
+    margin: 2.5% 0;
+}
+
+.cardSize:hover{
+    color: #f8f8ff !important;
+    background-color: #DBDBE8;
+    border: 3px solid #004488;
+    box-shadow: 5px 1.5px 5px slategrey;
+
+}

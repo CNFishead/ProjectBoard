@@ -1,0 +1,67 @@
+.flexContainer {
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.topMargin {
+    margin:50px 0px;
+}
+
+.buttonMargin {
+    margin: 5px 10px;
+}
+
+.formContainer {
+    margin: 0 0;
+    width:100%;
+    height: 100%;
+    display:block;
+}
+
+.emptyCenterer {
+    width: 7.5%;
+    margin: 10 px;
+}
+
+.fieldContainer {
+    border-radius:8px;
+    border: 3px solid #004488;
+    background-color:  #F8F8FF;
+    width: 7.5%;
+    height: 5%;
+    margin: 10px 10px;
+    
+    justify-content: center;
+    text-align: center;
+}
+
+.fieldContainer p{
+    margin: 10px 0px;
+    font-size: 14px;
+}
+
+.widthContainer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.fieldContentContainer {
+    border-radius:8px;
+    border: 3px solid #004488;
+    background-color:  #F8F8FF;
+    width: 20%;
+    height: 5%;
+    margin: 10px 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fieldContentContainer p{
+    margin: 10px 0px;
+}

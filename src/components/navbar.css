@@ -1,0 +1,60 @@
+
+.header {
+    overflow: hidden;
+    background-color: #001F3D;
+    padding: 20px 10px;
+    margin-bottom: 2.5%;
+  }
+  
+
+
+
+.linksContainer {
+    margin-left:5%;
+    width:25%;
+    margin-right:5%
+}
+
+/* Style the header links */
+.header p {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .headerText{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  .companyName {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .header-right {
+      float:right;
+  }
+
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }

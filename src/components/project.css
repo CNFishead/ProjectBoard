@@ -1,0 +1,60 @@
+.projectContainer {
+    width: 100%;
+}
+
+.projectContainerBox{
+    border-radius:8px;
+    border: 3px solid #004488;
+    background-color:  #F8F8FF;
+    width: 20%;
+    height: 5%;
+    margin: 10px 0px;
+}
+
+.projectContainerBox p {
+    text-align:center;
+    margin:5px 5px;
+}
+
+.projectContainer form{
+    display:block;
+}
+
+.projectContainer input{
+    text-align:center;
+    margin:2% 2%;
+    width:96%;
+}
+
+.projectContainer object{
+    text-align:center;
+    padding: 2% 2%;
+    width: 96%;
+}
+
+.projectDescriptionBox{
+    border-radius:8px;
+    border: 3px solid #004488;
+    background-color:  #F8F8FF;
+    width: 80%;
+    margin: 14px 0px;
+}
+
+.projectDescriptionBox p{
+    text-align: left;
+    margin: 2% 5%;
+}
+
+.projectDescriptionBox textarea{
+    text-align: left;
+    margin: 2% 5%;
+    width: 90%;
+    box-sizing: border-box;
+    resize: vertical;
+    overflow:auto;
+    min-height: 300px;
+}
+
+.buttonMargin {
+    margin: 5px 10px;
+}

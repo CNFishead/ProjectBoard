@@ -1,0 +1,24 @@
+
+
+
+.button{
+  
+  width: 145px;
+  height: 67px;
+  background-color: #56CCF2;
+  color: #4F4F4F;
+  font-size: 18px;
+  border-radius: 28.9px;
+  border: 3px solid #004488;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.button:hover {
+    color: #F8F8FF;
+
+    background-color: #004488;
+    border: 2px solid #828282;
+
+}
